@@ -1,7 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-  </head>
-  <body></body>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body{
+                background-color:rgb(19, 189, 161);
+            }
+          /* this is for main body CSS*/
+            #first-chapter-style{
+            background-color:rgb(150, 179, 7);
+            font-family:"monospace",sans-serif;
+            }
+            
+            .quote-styling{
+               font-family: fatasy;
+               font-style: italic;
+               font-weight:bold;
+               font-size: 17px;
+            }
+            /*this is for the first chapter CSS*/
+            
+            #second-chapter-style{
+            background-color:rgb(230, 185, 21);
+            font-family: "monospace", sans-serif;
+            
+            }
+             /*this is for the second chapter CSS*/
+        </style>
+    </head>
+    <body>
+        
+        <h1>My programming journey  blog</h1>
+
+        <h3>Contents</h3>
+         <table>
+             <thead>
+                 <tr>
+                     <th>Chapter</th>
+                     <th>Title</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td><a href="#first-chapter">1</a></td>
+                     <td>The begining</td>
+                 </tr>
+                 
+                  <tr>
+                     <td><a href="#second-chapter">2</a></td>
+                     <td>The journey</td>
+                 </tr>
+             </tbody>
+         </table>
+         <hr>
+         
+        <div id="first-chapter-style">
+        <h2 id="first-chapter">First chapter:The dawn of new begining</h2>
+        <h3>15/02/2022</h3>
+        <a href="https://codeyourfuture.io" target="_blank"><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-waves-at-sunset.png" alt="sunet over horizon" width="350"></a>
+        <p>On this day my journey to become a fullstack web developer begin when I join Code Your Future. During this time I begin to an self study course to learn about how to self studie in tech enviroment and learn some basic about techical coding languages and agile framework for team base project.</p>
+        <p>Here is what I learn in this course.</p>
+        <h4>For coding side of the course</h4>
+        
+        <ul>
+            <li>Learn the basic of what coding is all about and  some basic term like what is a web, sever, broswer, client.</li>
+            <li>Learn the basic of HTML element and how to structure and format an HTML document.</li>
+            <li>Learn the basic of CSS like property, internal and external CSS,font styling and more.</li>
+        </ul>
+        
+        <p class="quote-styling">"Live as if you were to die tomorrow. Learn as if you were to live forever."</p>
+<p>- Mahatma Gandhi. </p>
+        </div>
+      <hr>
+      
+      <div id="second-chapter-style">
+        <h2 id="second-chapter">Second chapter: the journey. </h2>
+        <h3>01/03/2022</h3>
+       <a href="https://curriculum.codeyourfuture.io" target="_blank"><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountains-and-lake.png" alt="sunet over horizon" width="350"></a>
+        <p>On this day I begin my journey to become a fullstack web developer. But I didn't expect that there is alots of thing to learn like Javascript, Python and SQL. Not to mention backend stuff like Note.JS, react frame work, git, git hub, version control and more. But if there anything i learn is that with enough dedicationa and hard work nothing is impossible</p>
+        <p class="quote-styling">There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.” </p>
+        <p>— Jiddu Krishnamurti</p>
+        </div>
+    </body>
 </html>
