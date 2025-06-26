@@ -1,91 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>Project: Event invite</title>
         <style>
-            h1{
-               font-family: "fantasy", sans-serif;
-                color: red;
-            }
-            body{
-                background-color:rgb(19, 189, 161);
-            }
-          /* this is for main body CSS*/
-            #first-chapter-style{
-            background-color:rgb(150, 179, 7);
-            font-family:"monospace",sans-serif;
+        
+          body{
+             background-color:rgb(237, 76, 55);
+          }
+ /*This is for styling HTML body as a whole*/
+          
+            #greeting{
+            background-color:rgb(227, 221, 170);
+            border: 3px solid rgb(105, 107, 72);        
+            border-radius:1%;
             }
             
-            .quote-styling{
-               font-family: fatasy;
-               font-style: italic;
-               font-weight:bold;
-               font-size: 17px;
-            }
-            /*this is for the first chapter CSS*/
+           
+            /*This for styling background color for the main div*/
             
-            #second-chapter-style{
-            background-color:rgb(230, 185, 21);
-            font-family: "monospace", sans-serif;
-            
+        /*below here is for styling what inside the main div*/
+         .h3 {
+                font-family: Georgia, serif;
+                
             }
-             /*this is for the second chapter CSS*/
+            .pic{
+                width:  250px;
+                height: 150px;
+            }
+            
+
+            .ulist{
+                
+                float: right;
+                width:30%;
+               
+                background-color:rgb(175,214, 17);
+                border: 1px solid rgb(102, 98, 43);
+                border-radius:2%;
+                padding-left: 20px;
+                
+               
+            }
+            /*this for styling the list next to the paragraph next to the event*/
+            
+            .eventlist{
+                float:left;
+                width:60%;
+                margin:0px 5px 0px 10px;
+            }
+            /*this is styling for main event paragragh*/
+            
+            /* This is for the reservation button*/
+            #bookingbutton{
+                text-align:center;
+                background-color:rgb(232, 88, 88);
+                border: 3px solid rgb(33, 29, 33);
+                border-radius: 10%;
+                margin: 0px 100px 0px 100px;
+                padding: 20px 0px 20px  0px;
+                text-decoration: none;
+            }
         </style>
     </head>
     <body>
         
-        <h1>My programming journey  blog</h1>
+        <h1>Hello You're invited for a grand party!</h1>
+        <hr>
+        
+        <div id="greeting">
+        <h3 class="h3" >Hello, on behalf of University of Oxford. If you received the link of this website by our school coucil. You are now hereby invited to our university graduation ceremony, in this pages we will layout list of detail on what event will take take place on this important day.</h3>
+    <!--This ordered list below is for listing detail of mini-event for the whole ceremony-->
+        
+        
+            <!--Mini-event number 1-->
+            
+           
+            <p>
+                <h4>1) Gathering of graduated
+student family and friend(8:30 AM to 10:30AM) </h4>
+                
+                <div class="eventlist">  
+                <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/fields-of-wine.png" alt="a plain field where for the gathering place" class="pic">
+                
+                <p>On the day of the ceremony take place both the student, family menbers and friends will be gather here to not only meet with other student family from the same class or differnt class. all the professor and teacher will also be present at the site to meet and personaly congrat each student. So for this event all party involve in this event need to. </p>
+            </div>
+             <!--This div is to group the main event paragragh-->
+            
+          
+            
+            <div class="ulist">
+              <ul style="padding-left:5px;padding-bottom: 90px">
+                <li> Make sure you and the student ready and on time to praticipate. </li>
+                <li>When practicipate, make sure you wear correct and formal clothes that comply with dressing code</li>
+                <li>Be respecful when meeting the teachers and profressors</li>
+              </ul>
+            </div>
+            
+            <hr style="clear: both">
+        
+        <!--this is the second mini-event-->
+        
+        
+             <p>
+            
+                <h4>2) Graduation ceremony begin speech and  graduation degree hand out(10:45 AM to 13:30 PM)</h4>
+                
+        <div class="eventlist" >
+                <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/fireworks-in-sky.png" alt="firework at the ceremony" class="pic">
+                
+                <p>After the gathering and meeting event. Now all the student and student family will begin taking seat. For the student they will be sit down on the seat that have thier name on it in the middle area on both left and right side. while the families and friends that attented will be seat on the stands to left where the student is. The head master of the school and all the school staff will sit on the stage in front of the student.
+                    
+                </p>
+                </div>
+                <!--This div is to group the main event paragragh-->
+            
+           
+            
+            <ul class="ulist" >
+                <li>The begining speech will be deliver by our school choosen gratuation valedictorian.</li>
+                <li> Then the head master of the school will deliver speech on congratuation on the graduated student.</li>
+                <li> After the speech, the head master will called each of the student to go to the stage and recieved thier degree.</li>
+            </ul>
+            
 
-        <h3>Contents</h3>
-         <table>
-             <thead>
-                 <tr>
-                     <th>Chapter</th>
-                     <th>Title</th>
-                 </tr>
-             </thead>
-             <tbody>
-                 <tr>
-                     <td><a href="#first-chapter">1</a></td>
-                     <td>The begining</td>
-                 </tr>
-                 
-                  <tr>
-                     <td><a href="#second-chapter">2</a></td>
-                     <td>The journey</td>
-                 </tr>
-             </tbody>
-         </table>
-         <hr>
-         
-        <div id="first-chapter-style">
-        <h2 id="first-chapter">First chapter:The dawn of new begining</h2>
-        <h3>15/02/2022</h3>
-        <a href="https://codeyourfuture.io" target="_blank"><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-waves-at-sunset.png" alt="sunet over horizon" width="350"></a>
-        <p>On this day my journey to become a fullstack web developer begin when I join Code Your Future. During this time I begin to an self study course to learn about how to self studie in tech enviroment and learn some basic about techical coding languages and agile framework for team base project.</p>
-        <p>Here is what I learn in this course.</p>
-        <h4>For coding side of the course</h4>
-        
-        <ul>
-            <li>Learn the basic of what coding is all about and  some basic term like what is a web, sever, broswer, client.</li>
-            <li>Learn the basic of HTML element and how to structure and format an HTML document.</li>
-            <li>Learn the basic of CSS like property, internal and external CSS,font styling and more.</li>
-        </ul>
-        
-        <p class="quote-styling">"Live as if you were to die tomorrow. Learn as if you were to live forever."</p>
-<p>- Mahatma Gandhi. </p>
-        </div>
-      <hr>
-      
-      <div id="second-chapter-style">
-        <h2 id="second-chapter">Second chapter: the journey. </h2>
-        <h3>01/03/2022</h3>
-       <a href="https://curriculum.codeyourfuture.io" target="_blank"><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountains-and-lake.png" alt="sunet over horizon" width="350"></a>
-        <p>On this day I begin my journey to become a fullstack web developer. But I didn't expect that there is alots of thing to learn like Javascript, Python and SQL. Not to mention backend stuff like Note.JS, react frame work, git, git hub, version control and more. But if there anything i learn is that with enough dedicationa and hard work nothing is impossible</p>
-        <p class="quote-styling">There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.” </p>
-        <p>— Jiddu Krishnamurti</p>
+             <hr style="clear: both">
+             
+             <!--third and final event-->
+             
+              <p>
+            
+                <h4>3) Post graduation Gala and party(14:00 PM to 21h30 PM)</h4>
+                
+        <div class="eventlist" >
+                <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/fireworks-over-harbor.png" alt="Final firework at the last event" class="pic">
+                
+                <p>After each  graduated students have received ther degree. The ceremony will officialy concluded, students and teachers in their respective class will take a final group picture together. After taking picture, all students, teachers, school staff whill move insdie the school for a grand party will live performent, dance hall, all kind off food and more.
+                </p>
+                </div>
+                <!--This div is to group the main event paragragh-->
+            
+           
+            
+            <ul class="ulist" >
+                <li>most of the music performent will be done by our music team and the school student</li>
+                <li>The food will be prepare by our school head chef and student from culinary class</li>
+                <li> After the live performent, we will have a prom dance event that everyone can join</li>
+            </ul>
+            
+            <!--third and final event-->
+             <hr style="clear: both">
+             
+             
+            <p>If you wish to join this event, please click the link below to  RSVP and we will send comfirm detail to your email. Please make sure to provide correct detail when you to reservation.</p>
+            
+        <a href="https://www.booking.com/index.en-gb.html" target="_blank"><p id="bookingbutton">Reservation Now</p></a>
+            
         </div>
     </body>
-    
 </html>
